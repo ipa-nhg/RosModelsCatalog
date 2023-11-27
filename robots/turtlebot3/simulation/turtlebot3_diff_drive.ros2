@@ -10,3 +10,12 @@ turtlebot3_diff_drive:
           type: "nav_msgs/msg/Odometry"
         "tf":
           type: "tf2_msgs/msg/TFMessage"
+          qos:
+            depth: 100
+            durability: volatile
+            history: keep_last
+            reliability: reliable
+      parameters:
+        "use_sim_time":
+          type: Boolean
+          value: True

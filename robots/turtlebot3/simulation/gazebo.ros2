@@ -1,6 +1,6 @@
 gazebo:
   artifacts:
-    gazebo:
+    gazebo: # change to exector name
       node: gazebo
       publishers:
         "performance_metrics":
