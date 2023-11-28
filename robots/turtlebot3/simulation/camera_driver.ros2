@@ -1,6 +1,6 @@
 camera_driver:
   artifacts:
-    camera_driver: # change to exector name
+    camera_driver:
       node: camera_driver
       publishers:
         "camera/camera_info":
