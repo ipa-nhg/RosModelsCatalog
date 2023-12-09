@@ -1,7 +1,8 @@
-arm_controller:
+open_manipulator_x_controller:
+  fromGitRepo: "https://github.com/ROBOTIS-GIT/open_manipulator:humble-devel"
   artifacts:
-    arm_controller: # change to exector name
-      node: arm_controller
+    open_manipulator_x_controller: # change to exector name
+      node: open_manipulator_x_controller
       subscribers:
         "~/joint_trajectory":
           type: "trajectory_msgs/msg/JointTrajectory"
