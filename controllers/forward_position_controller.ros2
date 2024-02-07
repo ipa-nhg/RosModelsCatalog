@@ -13,8 +13,7 @@ position_controllers:
         "interface_name":
           type: String
         "joints":
-          type:
-            Array: String
+          type: Array [String]
         "robot_description":
           type: String
         "update_rate":

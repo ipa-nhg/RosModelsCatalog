@@ -13,8 +13,7 @@ ur_robot_driver:
           type: "controller_manager_msgs/srv/SwitchController"
       parameters:
         "consistent_controllers":
-          type:
-            Array: String
+          type: Array [String]
           value: "['io_and_status_controller', 'force_torque_sensor_broadcaster', 'joint_state_broadcaster', 'speed_scaling_state_broadcaster']"
         "headless_mode":
           type: Boolean

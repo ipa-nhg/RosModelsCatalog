@@ -26,8 +26,7 @@ force_torque_sensor_broadcaster:
         "sensor_name":
           type: String
         "state_interface_names":
-          type:
-            Array: String
+          type: Array [String]
         "topic_name":
           type: String
         "update_rate":

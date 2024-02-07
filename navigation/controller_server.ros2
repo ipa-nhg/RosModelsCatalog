@@ -141,8 +141,7 @@ controller_server:
           type: Double
           value: 0.025
         "FollowPath.critics":
-          type:
-            Array: String
+          type: Array [String]
           value: "['RotateToGoal', 'Oscillation', 'BaseObstacle', 'GoalAlign', 'PathAlign', 'PathDist', 'GoalDist']"
         "FollowPath.debug_trajectory_details":
           type: Boolean
@@ -157,8 +156,7 @@ controller_server:
           type: Double
           value: 0.0
         "FollowPath.default_critic_namespaces":
-          type:
-            Array: String
+          type: Array [String]
           value: "[]"
         "FollowPath.discretize_by_time":
           type: Boolean
@@ -263,8 +261,7 @@ controller_server:
           type: Double
           value: 10.0
         "controller_plugins":
-          type:
-            Array: String
+          type: Array [String]
           value: "['FollowPath']"
         "failure_tolerance":
           type: Double
@@ -282,8 +279,7 @@ controller_server:
           type: Double
           value: 0.25
         "goal_checker_plugins":
-          type:
-            Array: String
+          type: Array [String]
           value: "['general_goal_checker']"
         "min_theta_velocity_threshold":
           type: Double

@@ -66,8 +66,7 @@ smoother_server:
           type: Double
           value: 0.3
         "smoother_plugins":
-          type:
-            Array: String
+          type: Array [String]
           value: "['simple_smoother']"
         "transform_tolerance":
           type: Double

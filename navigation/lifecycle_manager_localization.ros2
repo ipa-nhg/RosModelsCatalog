@@ -39,8 +39,7 @@ lifecycle_manager_localization:
           type: Double
           value: 1.0
         "node_names":
-          type:
-            Array: String
+          type: Array [String]
           value: "['map_server', 'amcl']"
         "qos_overrides./parameter_events.publisher.depth":
           type: Integer

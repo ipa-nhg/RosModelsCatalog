@@ -32,27 +32,22 @@ velocity_smoother:
           type: Boolean
           value: True
         "deadband_velocity":
-          type:
-            Array: Double
+          type: Array [Double]
           value: [0.0, 0.0, 0.0]
         "feedback":
           type: String
           value: "OPEN_LOOP"
         "max_accel":
-          type:
-            Array: Double
+          type: Array [Double]
           value: [2.5, 0.0, 3.2]
         "max_decel":
-          type:
-            Array: Double
+          type: Array [Double]
           value: [-2.5, 0.0, -3.2]
         "max_velocity":
-          type:
-            Array: Double
+          type: Array [Double]
           value: [0.5, 0.0, 2.5]
         "min_velocity":
-          type:
-            Array: Double
+          type: Array [Double]
           value: [-0.5, 0.0, -2.5]
         "odom_duration":
           type: Double

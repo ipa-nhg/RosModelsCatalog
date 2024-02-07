@@ -55,12 +55,10 @@ local_costmap:
           type: Boolean
           value: True
         "clearable_layers":
-          type:
-            Array: String
+          type: Array [String]
           value: "['obstacle_layer', 'voxel_layer', 'range_layer']"
         "filters":
-          type:
-            Array: String
+          type: Array [String]
           value: "[]"
         "footprint":
           type: String
@@ -171,8 +169,7 @@ local_costmap:
           type: Double
           value: 0.0
         "plugins":
-          type:
-            Array: String
+          type: Array [String]
           value: "['obstacle_layer', 'voxel_layer', 'inflation_layer']"
         "publish_frequency":
           type: Double

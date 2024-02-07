@@ -105,8 +105,7 @@ move_group:
           type: Boolean
           value: True
         "moveit_simple_controller_manager.controller_names":
-          type:
-            Array: String
+          type: Array [String]
           value: "['joint_trajectory_controller']"
         "moveit_simple_controller_manager.joint_trajectory_controller.action_ns":
           type: String
@@ -115,8 +114,7 @@ move_group:
           type: Boolean
           value: True
         "moveit_simple_controller_manager.joint_trajectory_controller.joints":
-          type:
-            Array: String
+          type: Array [String]
           value: "['shoulder_pan_joint', 'shoulder_lift_joint', 'elbow_joint', 'wrist_1_joint', 'wrist_2_joint', 'wrist_3_joint']"
         "moveit_simple_controller_manager.joint_trajectory_controller.type":
           type: String
@@ -125,8 +123,7 @@ move_group:
           type: Double
           value: 0.01
         "ompl.arm.planner_configs":
-          type:
-            Array: String
+          type: Array [String]
           value: "['SBLkConfigDefault', 'ESTkConfigDefault', 'LBKPIECEkConfigDefault', 'BKPIECEkConfigDefault', 'KPIECEkConfigDefault', 'RRTkConfigDefault', 'RRTConnectkConfigDefault', 'RRTstarkConfigDefault', 'TRRTkConfigDefault', 'PRMkConfigDefault', 'PRMstarkConfigDefault']"
         "ompl.arm.projection_evaluator":
           type: String
@@ -279,8 +276,7 @@ move_group:
           type: String
           value: "default_planner_request_adapters/FixWorkspaceBounds default_planner_request_adapters/FixStartStateBounds default_planner_request_adapters/FixStartStateCollision default_planner_request_adapters/FixStartStatePathConstraints"
         "planning_pipelines":
-          type:
-            Array: String
+          type: Array [String]
           value: "['ompl', 'pilz_industrial_motion_planner', 'chomp']"
         "publish_geometry_updates":
           type: Boolean
@@ -306,8 +302,7 @@ move_group:
           type: String
           value: "kdl_kinematics_plugin/KDLKinematicsPlugin"
         "robot_description_kinematics.arm.kinematics_solver_ik_links":
-          type:
-            Array: String
+          type: Array [String]
           value: "None"
         "robot_description_kinematics.arm.kinematics_solver_search_resolution":
           type: Double
@@ -319,8 +314,7 @@ move_group:
           type: String
           value: "None"
         "robot_description_kinematics.hand.kinematics_solver_ik_links":
-          type:
-            Array: String
+          type: Array [String]
           value: "None"
         "robot_description_kinematics.hand.kinematics_solver_search_resolution":
           type: Double

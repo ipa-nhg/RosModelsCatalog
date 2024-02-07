@@ -59,8 +59,7 @@ lifecycle_manager_navigation:
           type: Double
           value: 1.0
         "node_names":
-          type:
-            Array: String
+          type: Array [String]
           value: "['controller_server', 'smoother_server', 'planner_server', 'behavior_server', 'bt_navigator', 'waypoint_follower', 'velocity_smoother']"
         "qos_overrides./parameter_events.publisher.depth":
           type: Integer

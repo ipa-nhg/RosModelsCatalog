@@ -11,16 +11,13 @@ joint_state_broadcaster:
           type: "sensor_msgs/msg/JointState"
       parameters:
         "extra_joints":
-          type:
-            Array: String
+          type: Array [String]
           value: "[]"
         "interfaces":
-          type:
-            Array: String
+          type: Array [String]
           value: "[]"
         "joints":
-          type:
-            Array: String
+          type: Array [String]
           value: "[]"
         "map_interface_to_joint_state.effort":
           type: String

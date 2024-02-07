@@ -42,8 +42,7 @@ behavior_server:
           type: String
           value: "nav2_behaviors/BackUp"
         "behavior_plugins":
-          type:
-            Array: String
+          type: Array [String]
           value: "['spin', 'backup', 'drive_on_heading', 'wait']"
         "costmap_topic":
           type: String

@@ -18,16 +18,13 @@ imu_broadcaster:
           type: String
           value: "imu"
         "static_covariance_angular_velocity":
-          type:
-            Array: Double
+          type: Array [Double]
           value: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
         "static_covariance_linear_acceleration":
-          type:
-            Array: Double
+          type: Array [Double]
           value: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
         "static_covariance_orientation":
-          type:
-            Array: Double
+          type: Array [Double]
           value: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
         "update_rate":
           type: Integer
