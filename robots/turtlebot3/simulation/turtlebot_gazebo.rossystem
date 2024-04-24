@@ -16,9 +16,9 @@ turtlebot_gazebo:
     turtlebot3_diff_drive:
       from: "turtlebot3_diff_drive.turtlebot3_diff_drive"
       interfaces:
-        - cmd_vel: sub->"turtlebot3_diff_drive::cmd_vel"
+        - cmd_vel_diff: sub->"turtlebot3_diff_drive::cmd_vel"
         - tf: pub->"turtlebot3_diff_drive::tf"
-        - odom: pub->"turtlebot3_diff_drive::odom"
+        - odom_diff: pub->"turtlebot3_diff_drive::odom"
     turtlebot3_imu:
       from: "turtlebot3_imu.turtlebot3_imu"
       interfaces:
@@ -32,4 +32,4 @@ turtlebot_gazebo:
     turtlebot3_laserscan:
       from: "turtlebot3_laserscan.turtlebot3_laserscan"
       interfaces:
-        - scan: pub-> "turtlebot3_laserscan::scan"
+        - scan_turtlebot: pub-> "turtlebot3_laserscan::scan"
