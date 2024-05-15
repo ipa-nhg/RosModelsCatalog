@@ -1,0 +1,6 @@
+realsense2_camera:
+  msgs:
+    Extrinsics
+      message
+    IMUInfo
+      message
